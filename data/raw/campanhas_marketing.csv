@@ -1,0 +1,16 @@
+id_campanha,canal,data_inicio,data_fim,investimento,ref
+MKT001,Google Ads,2025-11-01,2025-11-30,12997.18,Black Friday
+MKT002,Marketplace,2025-05-01,2025-05-12,13497.06,Dia das Mães
+MKT003,Marketplace,2025-06-01,2025-06-12,9298.83,Dia dos Namorados
+MKT004,Instagram Ads,2025-01-05,2025-01-31,9698.66,Liquidação de Verão
+MKT005,Facebook Ads,2025-08-01,2025-08-10,7902.68,Dia dos Pais
+MKT006,Marketplace,2025-03-10,2025-03-16,9215.00,Semana do Consumidor
+MKT007,Marketplace,2025-04-10,2025-04-20,3716.93,Páscoa (Brindes)
+MKT008,Marketplace,2025-12-01,2025-12-25,19670.33,Natal
+MKT009,Marketplace,2025-09-01,2025-09-15,10594.17,Semana do Brasil
+MKT010,Google Orgânico,2025-01-01,2025-03-31,18844.86,Q1 (Lançamentos)
+MKT011,Facebook Ads,2025-10-01,2025-10-12,2122.94,Dia das Crianças
+MKT012,Google Orgânico,2025-07-01,2025-09-30,8904.34,Q3 (Fidelização)
+MKT013,Marketplace,2025-12-26,2025-12-31,10041.24,Réveillon
+MKT014,Google Ads,2025-02-15,2025-03-05,6805.90,Carnaval
+MKT015,Marketplace,2025-10-15,2025-10-31,7933.26,Esquenta BF

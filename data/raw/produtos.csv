@@ -1,0 +1,81 @@
+id_produto,nome_produto,categoria,marca,volume_ml,preco_unitario,ativo
+P0001,Essencial Exclusivo,Perfume,Natura,100.0,259.90,Sim
+P0002,Kaiak Oceano,Perfume,Natura,100.0,172.90,Sim
+P0003,Malbec Gold,Perfume,O Boticário,100.0,224.90,Sim
+P0004,Lily Eau de Parfum,Perfume,O Boticário,75.0,299.90,Sim
+P0005,Elysée Success,Perfume,O Boticário,50.0,274.90,Sim
+P0006,Floratta Red,Perfume,O Boticário,75.0,149.90,Sim
+P0007,Eudora Royal,Perfume,Eudora,75.0,204.90,Sim
+P0008,Impression Audaz,Perfume,Eudora,100.0,219.90,Sim
+P0009,Cereja e Avelã,Body Splash,Natura,200.0,74.90,Sim
+P0010,Águas de Jabuticaba,Perfume,Natura,150.0,99.90,Sim
+P0011,Verbena Eau de Toilette,Perfume,L'Occitane en Provence,100.0,459.00,Sim
+P0012,Nuvem Cuide-se Bem,Body Splash,O Boticário,200.0,69.90,Sim
+P0013,Coffee Woman Seduction,Perfume,O Boticário,100.0,189.90,Sim
+P0014,La Victorie Intense,Perfume,Eudora,75.0,214.90,Sim
+P0015,Her Code,Perfume,O Boticário,50.0,209.90,Sim
+P0016,Luna Valentina,Perfume,Natura,75.0,184.90,Sim
+P0017,Magnolia d'Orizaba,Perfume,L'Occitane au Brésil,100.0,169.90,Sim
+P0018,Humor Próprio,Perfume,Natura,75.0,134.90,Sim
+P0019,Zaad Arctic,Perfume,O Boticário,95.0,284.90,Sim
+P0020,Arbo Forest,Perfume,O Boticário,100.0,164.90,Sim
+P0021,Amêndoas Doces Sève,Óleo Corporal,Natura,200.0,92.90,Sim
+P0022,Nativa SPA Ameixa,Loção Hidratante,O Boticário,400.0,74.90,Sim
+P0023,Kit Presente Tododia,Kit Presente,Natura,-,129.90,Sim
+P0024,Combo Niina Secrets,Kit Presente,Eudora,-,249.90,Sim
+P0025,Ekos Castanha,Polpa Hidratante,Natura,400.0,82.90,Sim
+P0026,Terra de Flor de Sal,Sabonete Líquido,L'Occitane au Brésil,250.0,64.90,Sim
+P0027,Lily Creme Acetinado,Hidratante,O Boticário,250.0,119.90,Sim
+P0028,Óleo de Banho Amêndoa,Óleo Corporal,L'Occitane en Provence,250.0,235.00,Sim
+P0029,Sabonete em Barra Cuide-se,Sabonete (2 un),O Boticário,160.0,22.90,Sim
+P0030,Kit Siàge Cauterização,Kit Capilar,Eudora,-,154.90,Não
+P0031,Gel Creme Facial Chronos,Hidratante,Natura,40.0,145.80,Sim
+P0032,Manteiga Murumuru,Máscara Capilar,Natura,200.0,68.90,Sim
+P0033,Sabonete Líquido Ekos,Sabonete,Natura,200.0,45.90,Sim
+P0034,Desodorante Clinical,Higiene,Eudora,48.0,34.90,Sim
+P0035,Batom Matte Tint,Maquiagem,Eudora,4.0,49.90,Sim
+P0036,Base Fluid FPS 60,Maquiagem,Natura,30.0,109.90,Sim
+P0037,Sérum Facial Antioxidante Vitamin C,Skincare,Natura Chronos,15.0,164.90,Sim
+P0038,Boticário Men Galbe,Perfume,O Boticário,100.0,139.90,Sim
+P0039,Kit Instance Frutas Vermelhas,Kit presente,Eudora,400.0,85.00,Sim
+P0040,Eau de Toilette Capim-Limão,Perfume,L'Occitane au Brésil,100.0,129.90,Sim
+P0041,Óleo Trifásico Ekos Andiroba,Óleo corporal,Natura,200.0,79.90,Sim
+P0042,Creme de Mãos Karité,Hidratante,L'Occitane en Provence,30.0,65.00,Não
+P0043,Malbec Magnetic,Perfume,O Boticário,100.0,209.90,Sim
+P0044,Glow Primer Professional,Maquiagem,BEYOUNG,30.0,119.90,Sim
+P0045,Sabonete Líquido Nativa SPA,Sabonete,O Boticário,200.0,49.90,Sim
+P0046,Luna Absoluta,Perfume,Natura,75.0,179.90,Não
+P0047,Eudora H Acqua,Perfume,Eudora,100.0,154.90,Sim
+P0048,Sérum Preenchedor Biohidratante,Skincare,Natura Chronos,30.0,158.00,Sim
+P0049,Shampoo Siàge Nutri Rose,Cabelo,Eudora,250.0,45.90,Sim
+P0050,Condicionador Siàge Nutri Rose,Cabelo,Eudora,200.0,49.90,Sim
+P0051,Kit Presente Celebre sua Sorte,Kit presente,O Boticário,-,114.90,Não
+P0052,Desodorante Colônia Kriska Shock,Perfume,Natura,100.0,124.90,Sim
+P0053,Demaquilante Bifásico,Skincare,Natura Chronos,150.0,72.00,Sim
+P0054,Hidratante Facial Hydra Gel,Skincare,BEYOUNG,50.0,89.90,Sim
+P0055,Loção Hidratante Mandacaru,Hidratante,L'Occitane au Brésil,200.0,84.90,Sim
+P0056,Sabonete em Barra Erva Doce,Sabonete (3un),Natura,270.0,24.90,Sim
+P0057,Coffee Man Duo,Perfume,O Boticário,100.0,194.90,Sim
+P0058,Bálsamo Pós-Barba,Masculino,O Boticário,110.0,59.90,Sim
+P0059,Óleo em Calda Nativa SPA,Óleo corporal,O Boticário,200.0,76.90,Sim
+P0060,Perfume Ilía Secreto,Perfume,Natura,50.0,169.90,Sim
+P0061,Protetor Solar FPS 60,Skincare,Natura Fotoequilíbrio,120.0,69.90,Sim
+P0062,Mousse de Banho Lily,Sabonete,O Boticário,150.0,79.90,Sim
+P0063,Colônia Mamãe e Bebê,Perfume Infantil,Natura,100.0,84.90,Sim
+P0064,Shampoo Match Patrulha do Frizz,Cabelo,O Boticário,250.0,42.90,Sim
+P0065,Máscara Capilar Match,Cabelo,O Boticário,250.0,64.90,Sim
+P0066,Eau de Parfum Lyra,Perfume,Eudora,75.0,189.90,Sim
+P0067,Esfoliante Purificante de Jengibre,Skincare,L'Occitane au Brésil,50.0,95.00,Sim
+P0068,Kit Miniaturas Verbena,Kit presente,L'Occitane en Provence,-,145.00,Sim
+P0069,Hidratante Labial Bepantol,Skincare,Bayer,4.5,39.90,Sim
+P0070,Água Micelar,Skincare,L'Oréal Paris,200.0,34.90,Sim
+P0071,Effaclar Gel de Limpeza,Skincare,La Roche-Posay,150.0,89.90,Sim
+P0072,Protetor Anthelios FPS 60,Skincare,La Roche-Posay,40.0,94.00,Sim
+P0073,Mineral 89 Sérum,Skincare,Vichy,50.0,179.90,Sim
+P0074,Sabonete Líquido Dermotivin,Skincare,Galderma,300.0,105.00,Sim
+P0075,Creme Antissinais Cicatricure,Skincare,Genomma Lab,50.0,54.90,Sim
+P0076,Óleo Bio-Oil,Óleo corporal,Bio-Oil,60.0,45.00,Sim
+P0077,Hidratante Intensivo,Hidratante,Neutrogena,200.0,59.90,Não
+P0078,Espuma de Limpeza Facial,Skincare,Natura Chronos,150.0,82.00,Sim
+P0079,Desodorante Roll-on Tododia,Higiene,Natura,70.0,21.90,Não
+P0080,Óleo de Amêndoas com Baunilha,Óleo corporal,Paixão,200.0,22.50,Sim

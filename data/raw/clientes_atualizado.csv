@@ -1,0 +1,221 @@
+id_cliente,nome_cliente,email,sexo,data_nascimento,cidade,estado,data_cadastro,fonte_aquisicao
+C0001,Ana Araujo,ana.araujo282@email.com,F,1985-01-10,Curitiba,PR,2023-05-23,E-mail marketing
+C0002,Daniela Araujo,daniela.araujo914@email.com,F,2017-12-23,Rio de Janeiro,RJ,2024-03-08,Google Orgânico
+C0003,Mariana Pereira,mariana.pereira239@email.com,F,2015-05-09,São Paulo,SP,2023-07-23,E-mail marketing
+C0004,Lucas Lima,lucas.lima604@gmail.com,M,1965-08-01,Porto Alegre,RS,2023-06-13,E-mail marketing
+C0005,Thiago Costa,thiago.costa160@gmail.com,Masculino,1995-03-14,Curitiba,PR,2023-04-15,Google Orgânico
+C0006,Rafael Rodrigues,rafael.rodrigues868@gmail.com,M,1919-03-01,Campinas,SP,2023-09-28,Marketplace
+C0007,Paula Lima,paula.lima550@email.com,F,1998-12-17,Rio de Janeiro,RJ,2023-03-22,Indicação
+C0008,Leonardo Ribeiro,leonardo.ribeiro907@gmail.com,Masculino,2016-10-18,Campinas,SP,2023-07-16,E-mail marketing
+C0009,Ana Carvalho,ana.carvalho234@email.com,F,1972-02-28,Porto Alegre,RS,2023-08-27,Marketplace
+C0010,Patricia Costa,patricia.costa465@email.com,F,1979-08-05,Campinas,SP,2024-01-15,Instagram Ads
+C0011,Daniela Costa,daniela.costa719@email.com,F,1919-08-26,Rio de Janeiro,RJ,2023-06-25,Indicação
+C0012,Juliana Lima,juliana.lima389@email.com,F,2014-12-20,Porto Alegre,RS,2023-08-13,E-mail marketing
+C0013,Carlos Pereira,carlos.pereira842@gmail.com,M,1993-04-20,São Paulo,SP,2024-02-15,Instagram Ads
+C0014,Beatriz Ribeiro,beatriz.ribeiro898@email.com,F,1984-01-29,Campinas,SP,2024-05-26,Facebook Ads
+C0015,Bruno Costa,bruno.costa143@gmail.com,M,2015-05-13,Curitiba,PR,2024-07-05,Instagram Ads
+C0016,Diego Alves,diego.alves371@gmail.com,M,1977-05-30,Curitiba,PR,2024-06-05,Facebook Ads
+C0017,Ana Santos,ana.santos157@email.com,F,2002-11-16,Belo Horizonte,MG,2023-03-07,Facebook Ads
+C0018,Diego Lima,diego.lima542@gmail.com,Masculino,2014-08-20,Porto Alegre,RS,2023-01-12,E-mail marketing
+C0019,Daniela Gomes,daniela.gomes769@email.com,Feminino,1995-07-09,Porto Alegre,RS,2023-04-25,Instagram Ads
+C0020,Bruno Lima,bruno.lima4@gmail.com,Masculino,2009-11-29,Porto Alegre,RS,2023-07-02,Indicação
+C0021,Daniela Costa,daniela.costa862@email.com,Feminino,1978-09-18,Curitiba,PR,2024-01-18,Marketplace
+C0022,Larissa Gomes,larissa.gomes941@email.com,Feminino,2018-09-26,São Paulo,SP,2023-11-28,Facebook Ads
+C0023,Mariana Rodrigues,mariana.rodrigues900@email.com,Feminino,1986-06-26,Porto Alegre,RS,2023-03-01,Google Ads
+C0024,Mariana Araujo,mariana.araujo498@email.com,Feminino,2012-10-16,Rio de Janeiro,RJ,2023-05-09,Google Ads
+C0025,André Oliveira,andré.oliveira272@gmail.com,Masculino,1984-01-02,Niterói,RJ,2024-07-06,Marketplace
+C0026,Paula Costa,paula.costa409@email.com,Feminino,2004-04-21,Campinas,SP,2024-06-13,Facebook Ads
+C0027,Beatriz Pereira,beatriz.pereira66@email.com,Feminino,1966-11-21,Campinas,SP,2024-07-21,Google Ads
+C0028,Ana Santos,ana.santos725@email.com,Feminino,1985-07-16,São Paulo,SP,2023-03-11,Google Orgânico
+C0029,Rafael Gomes,rafael.gomes244@gmail.com,Masculino,2008-07-20,Porto Alegre,RS,2023-08-08,Indicação
+C0030,Paula Ribeiro,paula.ribeiro591@email.com,Feminino,1986-10-20,Uberlândia,MG,2024-04-29,Marketplace
+C0031,Lucas Santos,lucas.santos100@gmail.com,Masculino,1996-10-14,Niterói,RJ,2024-03-09,Facebook Ads
+C0032,Gabriel Silva,gabriel.silva690@gmail.com,Masculino,1970-06-10,Rio de Janeiro,RJ,2024-02-17,E-mail marketing
+C0033,Rafael Pereira,rafael.pereira197@gmail.com,Masculino,2013-02-11,Curitiba,PR,2024-04-04,Google Ads
+C0034,Bruno Costa,bruno.costa474@gmail.com,M,1971-10-07,Curitiba,PR,2024-03-29,Marketplace
+C0035,Ana Carvalho,ana.carvalho554@email.com,Feminino,1973-05-15,São Paulo,SP,2023-08-31,Google Ads
+C0036,Eduardo Lima,eduardo.lima219@gmail.com,M,1970-04-06,Niterói,RJ,2023-06-18,Facebook Ads
+C0037,Patricia Costa,patricia.costa949@email.com,Feminino,1990-08-05,Uberlândia,MG,2024-03-09,E-mail marketing
+C0038,Bruno Pereira,bruno.pereira304@gmail.com,Masculino,1970-04-01,Curitiba,PR,2024-08-16,E-mail marketing
+C0039,Paula Rodrigues,paula.rodrigues59@email.com,Feminino,2017-05-30,São Paulo,SP,2024-05-03,Indicação
+C0040,Ana Gomes,ana.gomes83@email.com,Feminino,1971-02-24,Belo Horizonte,MG,2023-03-11,E-mail marketing
+C0041,Patricia Santos,patricia.santos965@email.com,Feminino,2016-12-09,Curitiba,PR,2023-02-10,Indicação
+C0042,Patricia Carvalho,patricia.carvalho598@email.com,Feminino,1988-05-24,Campinas,SP,2023-07-29,E-mail marketing
+C0043,Lucas Costa,lucas.costa406@gmail.com,Masculino,1991-12-01,Belo Horizonte,MG,2024-04-13,Instagram Ads
+C0044,Ana Lima,ana.lima637@email.com,Feminino,1971-07-29,Rio de Janeiro,RJ,2024-07-04,Google Ads
+C0045,Bruno Rodrigues,bruno.rodrigues903@gmail.com,Masculino,1986-12-01,Rio de Janeiro,RJ,2024-01-14,Instagram Ads
+C0046,Renata Gomes,renata.gomes721@email.com,F,2012-06-15,Porto Alegre,RS,2023-01-09,E-mail marketing
+C0047,Leonardo Santos,leonardo.santos962@gmail.com,Masculino,1988-09-23,Belo Horizonte,MG,2023-04-29,Google Orgânico
+C0048,Camila Costa,camila.costa620@email.com,F,1995-10-06,Curitiba,PR,2023-07-28,E-mail marketing
+C0049,André Lima,andré.lima258@gmail.com,Masculino,1973-04-13,São Paulo,SP,2024-03-09,Marketplace
+C0050,Carlos Silva,carlos.silva342@gmail.com,Masculino,1988-07-02,Belo Horizonte,MG,2023-06-15,E-mail marketing
+C0051,André Araujo,andré.araujo438@gmail.com,Masculino,1975-01-14,São Paulo,SP,2023-03-19,E-mail marketing
+C0052,Larissa Silva,larissa.silva855@email.com,F,2017-04-05,Campinas,SP,2024-07-19,Google Ads
+C0053,Bruno Silva,bruno.silva316@gmail.com,Masculino,1968-07-31,Campinas,SP,2024-01-02,Google Ads
+C0054,Daniela Santos,daniela.santos363@email.com,Feminino,1978-11-13,Niterói,RJ,2023-08-31,Marketplace
+C0055,Juliana Alves,juliana.alves26@email.com,Feminino,1994-10-21,Belo Horizonte,MG,2024-02-26,Marketplace
+C0056,Camila Oliveira,camila.oliveira807@email.com,Feminino,1999-04-28,Rio de Janeiro,RJ,2023-02-09,Marketplace
+C0057,Lucas Pereira,lucas.pereira837@gmail.com,Masculino,1996-05-15,Uberlândia,MG,2023-11-09,Marketplace
+C0058,Beatriz Silva,beatriz.silva676@email.com,Feminino,2000-09-30,Curitiba,PR,2023-12-03,Instagram Ads
+C0059,Camila Rodrigues,camila.rodrigues657@email.com,Feminino,2013-02-08,Niterói,RJ,2023-12-06,Google Orgânico
+C0060,Camila Oliveira,camila.oliveira595@email.com,Feminino,1968-06-07,Porto Alegre,RS,2023-04-22,Indicação
+C0061,Thiago Araujo,thiago.araujo806@gmail.com,Masculino,2004-02-25,Campinas,SP,2024-06-07,Google Orgânico
+C0062,Diego Pereira,diego.pereira261@gmail.com,Masculino,2004-02-14,São Paulo,SP,2023-01-02,Indicação
+C0063,Fernanda Alves,fernanda.alves72@email.com,Feminino,1993-03-01,Campinas,SP,2023-05-08,E-mail marketing
+C0064,André Costa,andré.costa683@gmail.com,Masculino,1994-04-07,Niterói,RJ,2024-02-17,E-mail marketing
+C0065,André Oliveira,andré.oliveira197@gmail.com,Masculino,1999-01-06,Niteroi,RJ,2023-06-28,Indicação
+C0066,Felipe Gomes,felipe.gomes854@gmail.com,Masculino,1992-04-06,São Paulo,SP,2023-10-21,Google Ads
+C0067,Diego Ribeiro,diego.ribeiro671@gmail.com,Masculino,2006-09-19,Campinas,SP,2024-03-28,Facebook Ads
+C0068,Larissa Lima,larissa.lima813@email.com,F,1972-08-10,Belo Horizonte,MG,2023-10-18,Indicação
+C0069,Rafael Pereira,rafael.pereira689@gmail.com,Masculino,1985-02-26,Porto Alegre,RS,2023-07-23,Google Ads
+C0070,Ana Pereira,ana.pereira487@email.com,F,2005-11-10,Rio de Janeiro,RJ,2024-02-29,E-mail marketing
+C0071,Paula Araujo,paula.araujo394@email.com,F,2000-11-08,Uberlândia,MG,2023-09-07,Google Ads
+C0072,Mariana Alves,mariana.alves225@email.com,F,2011-06-21,Belo Horizonte,MG,2024-04-20,Google Orgânico
+C0073,Mariana Lima,mariana.lima137@email.com,F,2012-08-26,Uberlândia,MG,2024-07-26,Indicação
+C0074,Eduardo Ribeiro,eduardo.ribeiro835@gmail.com,Masculino,2014-02-25,Niteroi,RJ,2024-04-01,Google Ads
+C0075,Eduardo Costa,eduardo.costa770@gmail.com,Masculino,1989-11-17,Curitiba,PR,2024-06-17,Facebook Ads
+C0076,Camila Lima,camila.lima80@email.com,Feminino,1986-01-14,POA,RS,2023-10-06,Instagram Ads
+C0077,André Santos,andré.santos142@gmail.com,Masculino,1985-09-30,Belo Horizonte,MG,2024-01-28,E-mail marketing
+C0078,Paula Pereira,paula.pereira66@email.com,Feminino,2001-07-27,Niterói,RJ,2023-12-05,Indicação
+C0079,Felipe Silva,felipe.silva212@gmail.com,Masculino,1999-12-11,Niterói,RJ,2024-08-21,E-mail marketing
+C0080,Carolina Alves,carolina.alves489@email.com,Feminino,1996-07-23,São Paulo,SP,2023-11-02,Marketplace
+C0081,Felipe Gomes,felipe.gomes766@gmail.com,Masculino,2008-10-20,Curitiba,PR,2023-08-13,Instagram Ads
+C0082,Eduardo Silva,eduardo.silva399@gmail.com,Masculino,2001-04-10,Campinas,SP,2023-06-19,Marketplace
+C0083,Bruno Ribeiro,bruno.ribeiro547@gmail.com,Masculino,2000-05-08,São Paulo,SP,2024-07-31,E-mail marketing
+C0084,Mariana Carvalho,mariana.carvalho439@email.com,Feminino,2006-06-03,Belo Horizonte,MG,2023-07-06,Google Orgânico
+C0085,Felipe Rodrigues,felipe.rodrigues217@gmail.com,Masculino,1994-04-29,Uberlândia,MG,2023-12-12,Marketplace
+C0086,Marcos Alves,marcos.alves259@gmail.com,Masculino,2007-03-13,Rio de Janeiro,RJ,2023-01-20,E-mail marketing
+C0087,Fernanda Pereira,fernanda.pereira666@email.com,Feminino,1968-08-12,Rio de Janeiro,RJ,2023-02-01,Google Ads
+C0088,Ana Ribeiro,ana.ribeiro157@email.com,Feminino,1976-04-29,Curitiba,PR,2024-04-29,E-mail marketing
+C0089,Carolina Pereira,carolina.pereira477@email.com,Feminino,1998-02-04,Porto Alegre,RS,2023-06-21,Indicação
+C0090,Juliana Costa,juliana.costa111@email.com,Feminino,1992-12-27,São Paulo,SP,2024-08-12,E-mail marketing
+C0091,Felipe Araujo,felipe.araujo204@gmail.com,Masculino,2018-02-13,Rio,RJ,2023-09-06,Google Orgânico
+C0092,Leonardo Ribeiro,leonardo.ribeiro825@gmail.com,Masculino,2015-10-10,Rio de Janeiro,RJ,2023-02-12,Instagram Ads
+C0093,Leonardo Rodrigues,leonardo.rodrigues71@gmail.com,Masculino,1966-02-19,Campinas,SP,2024-03-06,Marketplace
+C0094,Rafael Alves,rafael.alves984@gmail.com,Masculino,2006-03-31,Campinas,SP,2023-06-06,Facebook Ads
+C0095,Paula Gomes,paula.gomes989@email.com,Feminino,2013-04-13,POA,RS,2024-05-10,Facebook Ads
+C0096,Gabriel Ribeiro,gabriel.ribeiro275@gmail.com,Masculino,1987-01-10,Campinas,SP,2023-03-30,Instagram Ads
+C0097,Lucas Lima,lucas.lima584@gmail.com,Masculino,1995-03-08,Niterói,RJ,2023-01-30,Facebook Ads
+C0098,Bruno Lima,bruno.lima218@gmail.com,Masculino,1988-03-06,Campinas,SP,2023-12-15,Instagram Ads
+C0099,André Silva,andré.silva530@gmail.com,Masculino,1972-09-06,Curitiba,PR,2023-09-05,E-mail marketing
+C0100,Eduardo Gomes,eduardo.gomes777@gmail.com,Masculino,2007-09-18,Curitiba,PR,2024-05-17,Facebook Ads
+C0101,Mariana Costa,mariana.costa227@email.com,Feminino,1986-10-30,Niterói,RJ,2023-11-10,E-mail marketing
+C0102,Eduardo Gomes,eduardo.gomes544@gmail.com,Masculino,2003-03-05,Campinas,SP,2024-07-17,Instagram Ads
+C0103,Gabriel Lima,gabriel.lima278@gmail.com,Masculino,1987-07-22,Porto Alegre,RS,2023-08-25,Google Orgânico
+C0104,Fernanda Santos,fernanda.santos761@email.com,Feminino,1982-03-09,Belo Horizonte,MG,2023-08-10,E-mail marketing
+C0105,Marcos Araujo,marcos.araujo604@gmail.com,Masculino,1974-01-08,Porto Alegre,RS,2023-07-18,Instagram Ads
+C0106,Fernanda Oliveira,fernanda.oliveira310@email.com,Feminino,2012-12-02,São Paulo,SP,2023-05-10,Instagram Ads
+C0107,Ana Gomes,ana.gomes300@email.com,Feminino,2009-01-15,Belo Horizonte,MG,2023-04-16,Marketplace
+C0108,Carolina Costa,carolina.costa481@email.com,Feminino,2004-07-08,Uberlândia,MG,2023-12-15,Google Ads
+C0109,Camila Lima,camila.lima117@email.com,Feminino,2000-12-13,Rio de Janeiro,RJ,2024-05-18,Google Orgânico
+C0110,Juliana Oliveira,juliana.oliveira831@email.com,Feminino,1972-08-23,Porto Alegre,RS,2023-09-12,Google Orgânico
+C0111,Diego Ribeiro,diego.ribeiro810@gmail.com,Masculino,2011-11-19,Curitiba,PR,2024-01-25,Facebook Ads
+C0112,Marcos Ribeiro,marcos.ribeiro440@gmail.com,Masculino,2016-01-06,Porto Alegre,RS,2023-03-03,Indicação
+C0113,Beatriz Carvalho,beatriz.carvalho217@email.com,Feminino,1972-04-14,Porto Alegre,RS,2023-06-10,Google Ads
+C0114,Larissa Santos,larissa.santos161@email.com,Feminino,2001-08-26,São Paulo,SP,2024-04-06,E-mail marketing
+C0115,Marcos Silva,marcos.silva238@gmail.com,Masculino,1990-05-14,Porto Alegre,RS,2024-04-09,Google Orgânico
+C0116,Camila Carvalho,camila.carvalho604@email.com,Feminino,2003-02-21,Curitiba,PR,2023-04-28,Indicação
+C0117,Daniela Oliveira,daniela.oliveira931@email.com,Feminino,1977-10-05,POA,RS,2023-03-15,Google Orgânico
+C0118,Camila Ribeiro,camila.ribeiro767@email.com,Feminino,2004-05-26,POA,RS,2023-05-08,Facebook Ads
+C0119,Gabriel Alves,gabriel.alves966@gmail.com,Masculino,2009-11-25,Porto Alegre,RS,2024-07-06,Facebook Ads
+C0120,Rafael Ribeiro,rafael.ribeiro41@gmail.com,Masculino,1993-12-01,Niterói,RJ,2023-09-14,Google Orgânico
+C0121,Beatriz Carvalho,beatriz.carvalho857@email.com,Feminino,1989-03-07,São Paulo,SP,2024-08-13,Google Orgânico
+C0122,Renata Gomes,renata.gomes668@email.com,Feminino,1989-12-15,Uberlândia,MG,2023-07-05,Indicação
+C0123,Leonardo Lima,leonardo.lima993@gmail.com,Masculino,2007-03-03,Rio de Janeiro,RJ,2023-12-23,Facebook Ads
+C0124,Thiago Carvalho,thiago.carvalho108@gmail.com,Masculino,1994-08-04,Belo Horizonte,MG,2024-02-26,E-mail marketing
+C0125,Marcos Carvalho,marcos.carvalho968@gmail.com,Masculino,2014-05-09,Niterói,RJ,2023-02-07,Facebook Ads
+C0126,Fernanda Costa,fernanda.costa332@email.com,Feminino,2001-04-06,Rio de Janeiro,RJ,2024-06-10,Marketplace
+C0127,Daniela Gomes,daniela.gomes474@email.com,F,1969-11-12,Niterói,RJ,2023-07-12,Indicação
+C0128,Diego Lima,diego.lima641@gmail.com,Masculino,1969-08-19,Uberlandia,MG,2023-07-28,Instagram Ads
+C0129,Camila Lima,camila.lima902@email.com,F,1975-11-23,Uberlândia,MG,2023-01-30,E-mail marketing
+C0130,Paula Oliveira,paula.oliveira319@email.com,F,2014-07-19,São Paulo,SP,2024-02-22,Google Orgânico
+C0131,Mariana Lima,mariana.lima970@email.com,Feminino,1978-10-25,Rio de Janeiro,RJ,2024-05-25,E-mail marketing
+C0132,André Araujo,andré.araujo280@gmail.com,Masculino,2008-04-15,Niterói,RJ,2024-04-28,Google Ads
+C0133,André Oliveira,andré.oliveira393@gmail.com,Masculino,2018-10-10,Curitiba,PR,2024-06-04,E-mail marketing
+C0134,Mariana Costa,mariana.costa792@email.com,Feminino,1995-06-30,Niterói,RJ,2024-06-03,Instagram Ads
+C0135,Camila Araujo,camila.araujo306@email.com,Feminino,1978-05-02,Uberlândia,MG,2024-04-02,Indicação
+C0136,Thiago Rodrigues,thiago.rodrigues566@gmail.com,Masculino,2005-11-07,Niterói,RJ,2023-11-26,Marketplace
+C0137,Paula Pereira,paula.pereira586@email.com,Feminino,1985-12-15,Niterói,RJ,2024-02-25,Google Orgânico
+C0138,Gabriel Lima,gabriel.lima723@gmail.com,Masculino,1999-08-22,Niterói,RJ,2023-06-05,Facebook Ads
+C0139,Juliana Gomes,juliana.gomes989@email.com,Feminino,1974-01-02,Campinas,SP,2024-03-26,Google Orgânico
+C0140,Carlos Araujo,carlos.araujo148@gmail.com,Masculino,1978-11-07,Niterói,RJ,2023-03-18,Facebook Ads
+C0141,Thiago Ribeiro,thiago.ribeiro710@gmail.com,Masculino,1972-03-16,Niterói,RJ,2023-12-03,Marketplace
+C0142,Thiago Carvalho,thiago.carvalho736@gmail.com,Masculino,2013-07-16,Uberlandia,MG,2023-02-06,Indicação
+C0143,Beatriz Carvalho,beatriz.carvalho701@email.com,Feminino,1985-05-30,Porto Alegre,RS,2023-04-03,Facebook Ads
+C0144,Daniela Araujo,daniela.araujo894@email.com,Feminino,2004-10-21,Rio de Janeiro,RJ,2023-06-20,E-mail marketing
+C0145,Carlos Silva,carlos.silva333@gmail.com,Masculino,1991-04-28,São Paulo,SP,2024-01-03,Instagram Ads
+C0146,Bruno Pereira,bruno.pereira544@gmail.com,Masculino,2015-10-10,Niterói,RJ,2023-07-04,Google Ads
+C0147,Mariana Ribeiro,mariana.ribeiro892@email.com,Feminino,1986-08-10,Niterói,RJ,2024-05-24,Indicação
+C0148,Beatriz Lima,beatriz.lima654@email.com,Feminino,2006-03-26,Porto Alegre,RS,2023-09-19,E-mail marketing
+C0149,Renata Costa,renata.costa694@email.com,Feminino,1971-08-18,Belo Horizonte,MG,2024-03-28,Instagram Ads
+C0150,Leonardo Alves,leonardo.alves707@gmail.com,Masculino,2005-12-26,Porto Alegre,RS,2023-11-06,Google Ads
+C0151,Eduardo Santos,eduardo.santos243@gmail.com,Masculino,2016-04-23,Niterói,RJ,2024-01-03,Indicação
+C0152,Gabriel Costa,gabriel.costa23@gmail.com,Masculino,1989-08-17,Niterói,RJ,2023-01-09,Indicação
+C0153,Carolina Araujo,carolina.araujo509@email.com,Feminino,1985-08-24,Porto Alegre,RS,2023-12-27,Google Ads
+C0154,Carolina Costa,carolina.costa695@email.com,Feminino,1973-09-19,Belo Horizonte,MG,2023-02-10,Instagram Ads
+C0155,Carlos Ribeiro,carlos.ribeiro374@gmail.com,Masculino,1973-02-01,Belo Horizonte,MG,2023-10-30,Instagram Ads
+C0156,Bruno Pereira,bruno.pereira136@gmail.com,Masculino,2012-08-16,Campina,SP,2024-05-28,Instagram Ads
+C0157,Camila Lima,camila.lima991@email.com,Feminino,1995-05-23,Porto Alegre,RS,2023-04-28,Facebook Ads
+C0158,Juliana Pereira,juliana.pereira881@email.com,Feminino,2015-01-01,Niterói,RJ,2024-01-10,Google Orgânico
+C0159,Carlos Costa,carlos.costa550@gmail.com,Masculino,2005-10-20,Rio de Janeiro,RJ,2024-01-13,E-mail marketing
+C0160,Diego Alves,diego.alves843@gmail.com,Masculino,1974-09-21,Campina,SP,2023-08-28,Facebook Ads
+C0161,Carolina Gomes,carolina.gomes336@email.com,Feminino,1970-09-03,Curitiba,PR,2024-04-20,E-mail marketing
+C0162,Leonardo Alves,leonardo.alves120@gmail.com,Masculino,1969-01-25,Belo Horizonte,MG,2023-02-08,Instagram Ads
+C0163,Rafael Santos,rafael.santos241@gmail.com,Masculino,1999-11-14,Belo Horizonte,MG,2024-04-09,Instagram Ads
+C0164,Diego Araujo,diego.araujo745@gmail.com,Masculino,2002-03-22,Belo Horizonte,MG,2023-04-12,Marketplace
+C0165,Diego Alves,diego.alves962@gmail.com,Masculino,1967-12-09,Porto Alegre,RS,2024-01-15,Google Ads
+C0166,Eduardo Pereira,eduardo.pereira876@gmail.com,Masculino,1973-11-30,Campinas,SP,2024-01-12,Indicação
+C0167,Carlos Alves,carlos.alves283@gmail.com,Masculino,1975-12-17,Curitiba,PR,2024-04-10,Google Orgânico
+C0168,Daniela Carvalho,daniela.carvalho612@email.com,Feminino,1969-07-16,São Paulo,SP,2023-12-08,Google Ads
+C0169,Carolina Pereira,carolina.pereira71@email.com,Feminino,2017-08-10,Curitiba,PR,2023-08-10,Marketplace
+C0170,Fernanda Oliveira,fernanda.oliveira808@email.com,Feminino,1989-11-16,São Paulo,SP,2023-05-29,Google Ads
+C0171,Bruno Santos,bruno.santos677@gmail.com,Masculino,1976-10-28,São Paulo,SP,2023-01-16,Instagram Ads
+C0172,Carolina Rodrigues,carolina.rodrigues17@email.com,Feminino,1988-10-22,Belo Horizonte,MG,2023-02-23,Google Ads
+C0173,André Santos,andré.santos764@gmail.com,Masculino,2007-09-23,Rio de Janeiro,RJ,2024-04-04,Marketplace
+C0174,André Ribeiro,andré.ribeiro112@gmail.com,Masculino,2010-03-15,Uberlândia,MG,2023-08-15,Indicação
+C0175,Paula Carvalho,paula.carvalho534@email.com,Feminino,2006-02-04,Porto Alegre,RS,2023-02-01,Google Orgânico
+C0176,Felipe Alves,felipe.alves703@gmail.com,Masculino,2008-12-26,Rio de Janeiro,RJ,2024-03-30,Google Orgânico
+C0177,Fernanda Ribeiro,fernanda.ribeiro152@email.com,Feminino,1976-04-28,Rio de Janeiro,RJ,2023-10-09,Indicação
+C0178,Felipe Ribeiro,felipe.ribeiro544@gmail.com,Masculino,2005-09-15,Porto Alegre,RS,2024-06-01,Indicação
+C0179,Rafael Araujo,rafael.araujo118@gmail.com,Masculino,2003-08-02,Curitiba,PR,2024-04-07,Google Ads
+C0180,Thiago Lima,thiago.lima409@gmail.com,Masculino,1973-07-13,Niterói,RJ,2023-11-17,Facebook Ads
+C0181,Leonardo Costa,leonardo.costa384@gmail.com,Masculino,2007-07-20,Belo Horizonte,MG,2023-03-10,Google Orgânico
+C0182,Mariana Alves,mariana.alves99@email.com,Feminino,1976-09-03,Campinas,SP,2024-07-23,Google Orgânico
+C0183,Leonardo Santos,leonardo.santos421@gmail.com,Masculino,2002-12-11,Campinas,SP,2023-02-22,Instagram Ads
+C0184,Thiago Santos,thiago.santos592@gmail.com,Masculino,1978-11-19,Curitiba,PR,2024-05-08,Google Ads
+C0185,Fernanda Gomes,fernanda.gomes377@email.com,Feminino,1989-12-29,Rio de Janeiro,RJ,2024-08-10,Google Ads
+C0186,André Ribeiro,andré.ribeiro629@gmail.com,M,1919-08-21,São Paulo,SP,2023-10-01,Google Orgânico
+C0187,Camila Araujo,camila.araujo781@email.com,Feminino,1995-06-28,Porto Alegre,RS,2023-12-26,Google Orgânico
+C0188,Juliana Ribeiro,juliana.ribeiro674@email.com,Feminino,1971-03-31,Niterói,RJ,2023-05-26,E-mail marketing
+C0189,Mariana Araujo,mariana.araujo544@email.com,Feminino,1998-10-02,Curitiba,PR,2024-03-05,Facebook Ads
+C0190,Bruno Rodrigues,bruno.rodrigues320@gmail.com,Masculino,2015-12-03,Campinas,SP,2023-03-28,Google Orgânico
+C0191,Juliana Ribeiro,juliana.ribeiro51@email.com,Feminino,1989-05-31,Rio de Janeiro,RJ,2024-03-29,E-mail marketing
+C0192,Eduardo Ribeiro,eduardo.ribeiro453@gmail.com,Masculino,1989-07-05,Niterói,RJ,2023-08-09,Marketplace
+C0193,Fernanda Alves,fernanda.alves114@email.com,Feminino,2018-03-19,Porto Alegre,RS,2024-05-13,Indicação
+C0194,Carlos Pereira,carlos.pereira405@gmail.com,Masculino,1965-09-09,São Paulo,SP,2023-07-29,Instagram Ads
+C0195,Juliana Costa,juliana.costa297@email.com,Feminino,1975-10-07,Campinas,SP,2023-01-08,Facebook Ads
+C0196,Bruno Oliveira,bruno.oliveira390@gmail.com,Masculino,2009-11-18,Curitiba,PR,2024-07-26,Marketplace
+C0197,Rafael Alves,rafael.alves883@gmail.com,Masculino,2004-02-20,São Paulo,SP,2023-01-20,Facebook Ads
+C0198,Fernanda Ribeiro,fernanda.ribeiro440@email.com,Feminino,2002-06-22,Niterói,RJ,2023-10-24,Google Orgânico
+C0199,Carlos Rodrigues,carlos.rodrigues176@gmail.com,Masculino,1997-06-19,Uberlândia,MG,2023-04-01,Facebook Ads
+C0200,Beatriz Alves,beatriz.alves604@email.com,Feminino,2012-01-04,Niterói,RJ,2023-03-22,Facebook Ads
+C0201,Gabriel Rodrigues,gabriel.rodrigues227@gmail.com,Masculino,1980-02-01,Campinas,SP,2023-03-20,Indicação
+C0202,Larissa Gomes,larissa.gomes199@email.com,Feminino,1996-07-01,Campinas,SP,2023-06-01,Google Ads
+C0203,Juliana Costa,juliana.costa203@email.com,Feminino,1919-01-17,Belo Horizonte,MG,2023-06-06,Marketplace
+C0204,Juliana Carvalho,juliana.carvalho506@email.com,Feminino,2015-07-30,Uberlândia,MG,2024-08-16,Facebook Ads
+C0205,Leonardo Rodrigues,leonardo.rodrigues155@gmail.com,Masculino,1971-02-16,Uberlândia,MG,2024-04-25,Facebook Ads
+C0206,Marcos Ribeiro,marcos.ribeiro58@gmail.com,Masculino,1910-07-08,Campinas,SP,2023-03-17,Instagram Ads
+C0207,Eduardo Silva,eduardo.silva59@gmail.com,Masculino,1990-10-03,Campinas,SP,2023-03-20,E-mail marketing
+C0208,Carolina Ribeiro,carolina.ribeiro520@email.com,Feminino,2006-07-07,Niterói,RJ,2024-08-17,Indicação
+C0209,Renata Ribeiro,renata.ribeiro668@email.com,Feminino,1993-11-05,Curitiba,PR,2024-05-02,Indicação
+C0210,Ana Lima,ana.lima106@email.com,Feminino,1972-07-26,Campinas,SP,2024-05-31,E-mail marketing
+C0211,Ana Pereira,ana.pereira725@email.com,Feminino,2004-06-03,Uberlândia,MG,2024-06-20,Indicação
+C0212,Fernanda Rodrigues,fernanda.rodrigues940@email.com,Feminino,1999-10-04,Porto Alegre,RS,2024-02-23,Marketplace
+C0213,Leonardo Ribeiro,leonardo.ribeiro54@gmail.com,Masculino,1970-11-30,Campinas,SP,2023-12-04,Google Orgânico
+C0214,Marcos Costa,marcos.costa742@gmail.com,M,1994-11-28,Belo Horizonte,MG,2023-03-25,Indicação
+C0215,Fernanda Costa,fernanda.costa991@email.com,Feminino,1976-07-27,Niterói,RJ,2023-03-28,Instagram Ads
+C0216,Leonardo Rodrigues,leonardo.rodrigues833@gmail.com,M,2012-03-23,Belo Horizonte,MG,2023-04-06,E-mail marketing
+C0217,André Rodrigues,andré.rodrigues19@gmail.com,Masculino,1992-09-16,Campinas,SP,2023-07-04,Google Ads
+C0218,Eduardo Pereira,eduardo.pereira232@gmail.com,Masculino,1978-11-26,Belo Horizonte,MG,2023-03-21,Instagram Ads
+C0219,Larissa Gomes,larissa.gomes856@email.com,Feminino,1995-03-20,São Paulo,SP,2023-05-15,Indicação
+C0220,Bruno Oliveira,bruno.oliveira186@gmail.com,M,2004-04-07,Belo Horizonte,MG,2023-02-14,Facebook Ads
