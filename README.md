@@ -29,7 +29,7 @@ Este projeto simula um fluxo real de trabalho, incluindo:
 5. Gerar datasets prontos para análise em BI
 
 ## Estrutura do Projeto
-```
+<pre>
 Modern_beauty/
 │
 ├── data/
@@ -45,7 +45,7 @@ Modern_beauty/
 │       └── vendas.csv
 │
 ├── scripts/
-│   ├── `__init__.py`
+│   ├── __init__.py
 │   ├── data_cleaning.py
 │   ├── data_loader.py
 │   ├── data_merging.py
@@ -55,7 +55,7 @@ Modern_beauty/
 ├── main.py
 ├── README.md
 └── requirements.txt
-```
+</pre>
 
 ## Stack Utilizada
 - Python
@@ -67,7 +67,7 @@ Modern_beauty/
 O pipeline foi estruturado em 5 etapas principais, seguindo boas práticas de engenharia e análise de dados.
 
 **1. Data Loader – Carregamento de Dados**  
-Arquivo: data_loader.py
+Arquivo: data_loader.py  
 Os arquivos são carregados a partir do diretório data/raw/
 
 Arquivos utilizados:
@@ -84,7 +84,7 @@ O carregamento é feito via função genérica load_csv(), que:
 No main.py, há uma verificação que interrompe o pipeline caso algum DataFrame não seja carregado corretamente.
 
 **2. Data Cleaning – Limpeza e Padronização de Dados**  
-Arquivo: data_cleaning.py
+Arquivo: data_cleaning.py  
 Esta etapa trata inconsistências comuns em ambientes reais:
 
 **Vendas**
@@ -136,7 +136,8 @@ ref → "Sem Campanha / Orgânico"
 
 **4. Data Modeling – Criação de Métricas**  
 Arquivo: data_modeling.py  
-Após as integrações, são criadas métricas financeiras principais e métricas auxiliares:  
+Após as integrações, são criadas métricas financeiras principais e métricas auxiliares:
+
 ***Métricas financeiras (arredondadas para 2 casas decimais):***  
 receita = quantidade × preco_unitario  
 custo_total = quantidade × custo_unitario  
@@ -163,8 +164,7 @@ O script também exibe no terminal:
 - Preview da base clientes + campanhas
 
 ## Decisões Técnicas do Projeto
-**Uso de left join nas integrações**
-
+**Uso de left join nas integrações**  
 Todas as integrações entre tabelas foram realizadas utilizando how="left" no pandas.merge().
 
 Motivação:
@@ -173,12 +173,11 @@ Motivação:
 - Simular um cenário real de ambiente corporativo, onde dados dimensionais podem estar incompletos.
 - Essa decisão prioriza integridade analítica sobre eliminação silenciosa de registros.
 
-**Estrutura Modular em Scripts**
-
-O pipeline foi dividido em módulos independentes:
-data_loader.py
-data_cleaning.py
-data_merging.py
+**Estrutura Modular em Scripts**  
+O pipeline foi dividido em módulos independentes:  
+data_loader.py  
+data_cleaning.py  
+data_merging.py  
 data_modeling.py
 
 Motivação:
@@ -188,17 +187,16 @@ Motivação:
 - Organização semelhante a pipelines utilizados em ambientes produtivos
 Essa estrutura permite escalabilidade futura e melhor governança do código.
 
-**Geração de CSVs Consolidados**
-
+**Geração de CSVs Consolidados**  
 Os datasets finais são exportados para a pasta data/processed/
+
 Motivação:
 - Separação entre camada de dados brutos (raw) e dados tratados (processed)
 - Disponibilização de base estruturada para ferramentas de BI
 - Possibilidade de auditoria e reprocessamento
 - Simulação de uma camada analítica final (Data Mart simplificado)
 
-**Separação entre Base de Vendas e Base de Clientes + Campanhas**
-
+**Separação entre Base de Vendas e Base de Clientes + Campanhas**  
 O projeto gera dois datasets finais:
 - Base consolidada de vendas com métricas financeiras
 - Base de clientes integrada com campanhas de marketing
