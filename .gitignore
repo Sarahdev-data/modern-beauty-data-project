@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+.pytest_cache/
+*.py[cod]
+data/errors/*.csv

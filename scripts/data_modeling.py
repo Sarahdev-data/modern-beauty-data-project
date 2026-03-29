@@ -1,6 +1,6 @@
 import pandas as pd
 
-def métricas_vendas(df: pd.DataFrame):
+def métricas_vendas(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
 
     df["receita"] = (df["quantidade"] * df["preco_unitario"]).round(2)

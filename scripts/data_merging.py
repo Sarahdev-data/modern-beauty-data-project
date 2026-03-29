@@ -1,6 +1,6 @@
 import pandas as pd
 
-def vendas_e_produtos(vendas: pd.DataFrame, produtos: pd.DataFrame):
+def vendas_e_produtos(vendas: pd.DataFrame, produtos: pd.DataFrame) -> pd.DataFrame:
 
     vendas_produtos = vendas.merge(
         produtos,
@@ -10,7 +10,7 @@ def vendas_e_produtos(vendas: pd.DataFrame, produtos: pd.DataFrame):
 
     return vendas_produtos
 
-def vendas_e_custos(vendas: pd.DataFrame, custos: pd.DataFrame):
+def vendas_e_custos(vendas: pd.DataFrame, custos: pd.DataFrame) -> pd.DataFrame:
 
     vendas_custos = vendas.merge(
         custos,
@@ -20,7 +20,7 @@ def vendas_e_custos(vendas: pd.DataFrame, custos: pd.DataFrame):
 
     return vendas_custos
 
-def vendas_e_clientes_atualizado(vendas: pd.DataFrame, clientes_atualizado: pd.DataFrame):
+def vendas_e_clientes_atualizado(vendas: pd.DataFrame, clientes_atualizado: pd.DataFrame) -> pd.DataFrame:
 
     vendas_clientes_atualizado = vendas.merge(
         clientes_atualizado,
@@ -30,7 +30,7 @@ def vendas_e_clientes_atualizado(vendas: pd.DataFrame, clientes_atualizado: pd.D
 
     return vendas_clientes_atualizado
 
-def clientes_e_campanhas(clientes: pd.DataFrame, campanhas: pd.DataFrame):
+def clientes_e_campanhas(clientes: pd.DataFrame, campanhas: pd.DataFrame) -> pd.DataFrame:
 
     vendas_campanhas = clientes.merge(
         campanhas,

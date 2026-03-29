@@ -1,8 +1,10 @@
 import pandas as pd
 
-def clean_vendas(df: pd.DataFrame):
+def clean_vendas(df: pd.DataFrame) -> pd.DataFrame:
 
     df = df.copy()
+    
+    df = df.drop_duplicates()
 
     id = {
         'P001':'P0001',
@@ -26,8 +28,10 @@ def clean_vendas(df: pd.DataFrame):
     return df
 
 
-def clean_produtos(df: pd.DataFrame):
+def clean_produtos(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
+
+    df = df.drop_duplicates()
 
     df["id_produto"] = df["id_produto"].str.strip()
 
@@ -36,33 +40,39 @@ def clean_produtos(df: pd.DataFrame):
 
     df["categoria"] = df["categoria"].str.strip().str.title()
     
+    df["marca"] = df["marca"].str.strip().str.title()
+
     marca = {
         'Natura Fotoequilíbrio': 'Natura',
         'Natura Chronos': 'Natura',
     }
     df["marca"] = df["marca"].replace(marca)
-    df["marca"] = df["marca"].str.strip().str.title()
 
     df["volume_ml"] = pd.to_numeric(df["volume_ml"], errors="coerce")
 
     return df
 
 
-def clean_custos(df:pd.DataFrame):
+def clean_custos(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
 
+    df = df.drop_duplicates()
+
+    df["fornecedor"] = df["fornecedor"].str.title()
+    
     fornecedor = {
         'Natura Fotoequilíbrio': 'Natura',
         'Natura Chronos': 'Natura',
     }
 
     df["fornecedor"] = df["fornecedor"].str.strip().replace(fornecedor)
-    df["fornecedor"] = df["fornecedor"].str.title()
     return df
 
 
-def clean_clientes_atualizado(df:pd.DataFrame):
+def clean_clientes_atualizado(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
+
+    df = df.drop_duplicates()
 
     df["nome_cliente"] = df["nome_cliente"].str.strip().str.title()
 
@@ -91,8 +101,10 @@ def clean_clientes_atualizado(df:pd.DataFrame):
     return df
 
 
-def clean_campanhas_marketing(df:pd.DataFrame):
+def clean_campanhas_marketing(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
+
+    df = df.drop_duplicates()
 
     df["canal"] = df["canal"].str.strip()
 
