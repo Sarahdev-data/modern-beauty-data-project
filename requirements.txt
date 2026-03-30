@@ -2,3 +2,6 @@ pandas
 numpy
 pydantic
 pytest
+sqlalchemy
+pymysql
+python-dotenv

@@ -1,5 +1,5 @@
 # Modern Beauty – Projeto de Análise de Dados (Portfólio Profissional)
-Este projeto implementa um pipeline estruturado de tratamento e integração de dados, partindo de múltiplos arquivos CSV até a geração de datasets consolidados para análise.
+Este projeto implementa um pipeline de dados estruturado e modular, responsável pelo tratamento, validação e integração de múltiplas fontes, desde arquivos CSV brutos até a geração e persistência de dados confiáveis para análise.
 
 A empresa Modern Beauty e os dados utilizados são fictícios e foram criados exclusivamente para fins de portfólio.
 
@@ -11,17 +11,21 @@ O pipeline foi desenvolvido em Python, estruturado de forma modular e executa as
 - Integração entre tabelas
 - Criação de métricas de negócio
 - Geração de datasets finais prontos para análise
+- Armazenamento em Banco de Dados (MySQL)
 
 ## Etapas do Pipeline de Dados
 O pipeline foi estruturado nas seguintes etapas modulares:  
-<pre> Raw → Data Loader → Check Structure → Data Cleaning → Data Validation → Data Merging → Data Modeling → Processed <pre>
+<pre> Raw → Data Loader → Check Structure → Data Cleaning → Data Validation → Data Merging → Data Modeling → Processed (CSV / MySQL) </pre>
 
 ## Objetivo do Projeto
-Demonstrar, de forma prática e estruturada, como um Analista de Dados atua desde o dado bruto até a geração de valor para o negócio.
-Este projeto simula um fluxo real de trabalho, incluindo:
+Construir um pipeline de dados completo, desde a ingestão e tratamento de dados brutos até a geração e persistência de dados confiáveis para análise.
+O projeto simula um cenário real, envolvendo:
 - Problemas de qualidade de dados
-- Integrações entre áreas (Vendas, Marketing, Custos, Clientes)
-- Construção de métricas executivas
+- Integração entre múltiplas fontes
+- Criação de métricas de negócio
+- Validação e testes de dados
+- Geração de arquivos CSV para auditoria e consumo analítico
+- Armazenamento em banco relacional (MySQL)
 
 **O desafio consiste em:**
 1. Organizar os dados brutos
@@ -29,6 +33,8 @@ Este projeto simula um fluxo real de trabalho, incluindo:
 3. Integrar as tabelas corretamente
 4. Calcular métricas estratégicas
 5. Gerar datasets prontos para análise em BI
+6. Garantir a qualidade dos dados com validações e testes automatizados
+7. Persistir os dados tratados em banco de dados relacional (MySQL)
 
 ## Estrutura do Projeto
 <pre>
@@ -45,6 +51,11 @@ Modern_beauty/
 │       ├── custos.csv
 │       ├── produtos.csv
 │       └── vendas.csv
+│   
+├── database/
+│    ├── __init__.py
+│    ├── connection.py
+│    └── writer.py
 │
 ├── schemas/
 │   └── schemas.py
@@ -66,6 +77,7 @@ Modern_beauty/
 ├── validators/
 │   └── validators.py
 │
+├── .env
 ├── .gitignore
 ├── main.py
 ├── README.md
@@ -80,9 +92,11 @@ Modern_beauty/
 - Pytest (testes automatizados)
 - Pydantic (validação de dados e schemas)
 - Logging (monitoramento do pipeline)
+- SQLAlchemy (conexão e escrita em banco de dados)
+- MySQL (armazenamento dos datasets finais)
 
 ## Arquitetura do Pipeline de Dados
-O pipeline foi estruturado em 7 etapas principais, seguindo boas práticas de engenharia e análise de dados.
+O pipeline foi estruturado em 8 etapas principais, seguindo boas práticas de engenharia e análise de dados.
 
 **1. Data Loader – Carregamento de Dados**  
 Arquivo: data_loader.py  
@@ -202,6 +216,15 @@ O script também exibe no terminal:
 - Preview das vendas consolidadas
 - Preview da base clientes + campanhas
 
+**8. Armazenamento em Banco de Dados (MySQL)**  
+Além de gerar CSVs, o pipeline salva automaticamente os datasets finais em um banco de dados MySQL.  
+- Biblioteca utilizada: **SQLAlchemy** para gerenciar a conexão e escrita.
+- Tabelas criadas no MySQL:
+  - `fato_vendas` → dataset consolidado de vendas
+  - `dim_clientes_campanhas` → base de clientes integrada com campanhas
+
+> Motivo: Permite integração direta com ferramentas de BI e mantém os dados estruturados em um ambiente relacional seguro.
+
 ## Decisões Técnicas do Projeto
 **Uso de left join nas integrações**  
 Todas as integrações entre tabelas foram realizadas utilizando how="left" no pandas.merge().
@@ -278,10 +301,18 @@ Motivação:
 - Garantir qualidade do código
 - Simular práticas reais de engenharia de dados
 
+**Uso de SQLAlchemy e MySQL para armazenamento final**
+- Os DataFrames finais são enviados para um banco de dados MySQL utilizando SQLAlchemy.
+- Isso garante:
+  - Armazenamento estruturado e confiável
+  - Facilidade para integração com ferramentas de BI
+
 ## Resultado Final
 O projeto entrega:
 - Dataset consolidado de vendas com métricas financeiras
-- Dataset de clientes com vínculo de campanhas
+- Base de clientes integrada com campanhas de marketing
+- Estrutura analítica baseada em fato e dimensão
+- Dados persistidos em banco relacional (MySQL)
 - Base estruturada para análises estratégicas
 - Pipeline reproduzível e organizado de forma modular
 
@@ -292,16 +323,22 @@ Este projeto demonstra experiência prática em:
 - Tratamento de dados inconsistentes
 - Modelagem analítica
 - Integração entre múltiplas fontes
+- Modelagem analítica (fato e dimensão)
 - Criação de métricas de negócio
 - Preparação de dados para BI
+- Persistência de dados em banco relacional (MySQL)
+- Integração com banco de dados utilizando SQLAlchemy
 - Validação de dados com Pydantic
 - Testes automatizados com Pytest
+- Gerenciamento de variáveis sensíveis com .env
 - Monitoramento com logging
 - Garantia de integridade estrutural de dados
 - Boas práticas de versionamento (Git)
 
-## Como Executar o Projeto:
+## Variáveis de Ambiente (.env)
+Para não versionar dados sensíveis, o projeto utiliza um arquivo `.env` na raiz do projeto.
 
+## Como Executar o Projeto:
 **Instalar dependências:**  
 pip install -r requirements.txt
 
@@ -317,3 +354,4 @@ O sistema irá:
 3. Realizar os merges
 4. Criar métricas
 5. Gerar os arquivos finais
+6. Salvar as tabelas no MySQL: fato_vendas e dim_clientes_campanhas

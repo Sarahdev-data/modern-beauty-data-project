@@ -1,5 +1,7 @@
 import pandas as pd
 import logging
+from database.connection import get_engine
+from database.writer import save_to_mysql
 from pathlib import Path
 from schemas.schemas import VendaSchemas, ProdutoSchemas, CustoSchemas, ClienteSchemas, CampanhaSchemas
 from scripts.data_loader import load_vendas, load_produtos, load_custos, load_clientes_atualizado, load_campanhas_marketing
@@ -151,19 +153,37 @@ def main():
 
     #7.SALVAR CSV
 
-    vendas.to_csv("data/processed/modern_beauty_vendas.csv", index=False)
-    clientes_campanhas.to_csv("data/processed/modern_beauty_clientes_campanhas.csv", index=False)
-    logging.info("CSVs salvos em data/processed/ \n")
+    # vendas.to_csv("data/processed/modern_beauty_vendas.csv", index=False)
+    # clientes_campanhas.to_csv("data/processed/modern_beauty_clientes_campanhas.csv", index=False)
+    # logging.info("CSVs salvos em data/processed/ \n")
 
-    #8.FINAL
+    # 8.SALVAR NO MYSQL
 
-    logging.info("\n Pipeline finalizado com sucesso! Exibindo previews abaixo: ")
+    try:
+        logging.info("Conectando ao banco de dados...")
 
-    print("\n Preview do DataFrame final:")
-    print(vendas.head())
+        engine = get_engine()
+
+        logging.info("Salvando dados no MySQL...")
+
+        save_to_mysql(vendas, "fato_vendas", engine)
+        save_to_mysql(clientes_campanhas, "dim_clientes_campanhas", engine)
+
+        logging.info("Dados salvos no MySQL com sucesso!")
+
+    except Exception as e:
+        logging.critical(f"Erro ao salvar no banco: {e}")
+        raise
+
+    # 9.FINAL
+
+    # logging.info("\n Pipeline finalizado com sucesso! Exibindo previews abaixo: ")
+
+    # print("\n Preview do DataFrame final:")
+    # print(vendas.head())
     
-    print("\n Preview clientes + campanhas:")
-    print(clientes_campanhas.head())
+    # print("\n Preview clientes + campanhas:")
+    # print(clientes_campanhas.head())
 
 
 if __name__ == "__main__":
